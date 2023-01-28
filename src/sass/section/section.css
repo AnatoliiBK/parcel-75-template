@@ -1,0 +1,32 @@
+.slider-section .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  color: #fff;
+  font-size: 32px;
+  background-color: red;
+  transition: ease-in-out 0.5s;
+}
+.slider-section .swiper-slide.swiper-slide-next {
+  width: 17.3% !important;
+}
+
+.inputs__block {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.inputs-wrap input {
+  flex-basis: calc((100% - 40px) / 3);
+}
+.inputs .nice-select {
+  min-width: 300px;
+}
+.inputs .nice-select-dropdown {
+  width: 100%;
+}
+
+/*select.js-select{
+    @extend .visually-hidden;
+}*//*# sourceMappingURL=section.css.map */
